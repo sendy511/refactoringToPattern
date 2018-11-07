@@ -1,4 +1,4 @@
-package refactoringToPattern.state.goodExample;
+package refactoringToPattern.state.pattern;
 
 public class ClaimedState extends State {
     public void deniedBy(SystemUser user, SystemPermission systemPermission){

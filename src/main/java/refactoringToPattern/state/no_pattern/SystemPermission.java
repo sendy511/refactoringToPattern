@@ -1,4 +1,4 @@
-package refactoringToPattern.state.badExample;
+package refactoringToPattern.state.no_pattern;
 
 // Bad Example
 public class SystemPermission {

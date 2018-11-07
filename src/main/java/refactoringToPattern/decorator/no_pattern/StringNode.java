@@ -1,22 +1,16 @@
-package refactoringToPattern.Decorator;
+package refactoringToPattern.decorator.no_pattern;
 
 //
 // Bad example
 //
+
+import refactoringToPattern.decorator.Translater;
 
 class Client{
     public void parseHtml(){
         String rawHtmlNodeContent = "asdf&lt;111&rt;";
         StringNode stringNode = new StringNode(rawHtmlNodeContent, true);
         stringNode.toPlainTextString();
-    }
-}
-
-class Translater{
-    static String decode(String originalContent){
-        return originalContent
-            .replace("&lt;", "<")
-            .replace("&rt;", ">");
     }
 }
 

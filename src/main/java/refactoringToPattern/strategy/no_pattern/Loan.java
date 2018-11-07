@@ -1,4 +1,4 @@
-package refactoringToPattern.strategy.noPattern;
+package refactoringToPattern.strategy.no_pattern;
 
 import java.util.Date;
 

@@ -1,29 +1,8 @@
-package refactoringToPattern.builder;
+package refactoringToPattern.builder.pattern;
 
+import refactoringToPattern.builder.TagNode;
 
-public class UseBuilder {
-    // BadOne
-    public TagNode buildTagWithBadDesign(){
-        TagNode activity = new TagNode("activity");
-        TagNode flavors = new TagNode("flavors");
-        TagNode flavor = new TagNode("flavor");
-
-        activity.addChildren(flavors);
-        flavors.addChildren(flavor);
-
-        return activity;
-    }
-
-    //Goodone
-    public TagNode builTagWithGoodDesign(){
-        TagBuilder tagBuilder = new TagBuilder("activity");
-        tagBuilder.addChildren("flavors");
-        tagBuilder.addToParent("flavors", "flavor");
-        return tagBuilder.getResult();
-    }
-}
-
-class TagBuilder {
+public  class TagBuilder {
     private TagNode rootNode;
     public TagBuilder(String rootNodeName){
         rootNode = new TagNode(rootNodeName);

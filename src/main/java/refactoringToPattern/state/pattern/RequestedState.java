@@ -1,4 +1,4 @@
-package refactoringToPattern.state.goodExample;
+package refactoringToPattern.state.pattern;
 
 public class RequestedState extends State
 {

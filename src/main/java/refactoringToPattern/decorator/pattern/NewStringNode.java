@@ -1,8 +1,10 @@
-package refactoringToPattern.Decorator;
+package refactoringToPattern.decorator.pattern;
 
 //
 // Good example
 //
+
+import refactoringToPattern.decorator.Translater;
 
 class NewClient {
     public void parseHtml() {

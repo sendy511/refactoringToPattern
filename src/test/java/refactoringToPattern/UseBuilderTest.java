@@ -3,7 +3,7 @@ package refactoringToPattern;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import refactoringToPattern.builder.UseBuilder;
+import refactoringToPattern.builder.pattern.UseBuilder;
 
 class UseBuilderTest {
 

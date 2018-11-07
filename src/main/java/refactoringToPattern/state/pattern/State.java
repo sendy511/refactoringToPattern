@@ -1,4 +1,4 @@
-package refactoringToPattern.state.goodExample;
+package refactoringToPattern.state.pattern;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
